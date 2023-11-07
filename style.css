@@ -1,0 +1,81 @@
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+.container {
+    text-align: center;
+    width: 80vw;
+    margin: auto;
+    padding: 20px;
+}
+
+ul{
+    font-size: 20px;
+    list-style: none;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+input, button {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    margin-left: 10px;
+    background-color: blueviolet;
+    color:floralwhite
+}
+
+@keyframes example {
+    from {background-color: rgb(254, 225, 255);}
+    to {background-color: rgba(255, 255, 255, 0);}
+  }
+  
+  body {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+  @keyframes example {
+    0%   {background-color: rgb(255, 228, 244)(255, 0, 212);}
+    25%  {background-color: rgb(255, 255, 224);}
+    50%  {background-color: rgb(218, 218, 255);}
+    100% {background-color: rgb(236, 255, 236);}
+  }
+  
+  
+  body {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(244, 233, 255);
+    animation-name: example;
+    animation-duration: 4s;
+  }
